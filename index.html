@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  boxShadow">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                    </button>
+                </div>
+                <div class="offcanvas-body d-lg-block">
+                    <div class="container-fluid">
+                        <ul class="w-100 navbar-nav 
+                        d-flex align-items-center
+                        justify-content-around  
+                        me-auto mb-2 mb-lg-0 h-md-auto uList">
+                            <li class="nav-item">
+                                <a class="nav-link active hoverEffect" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link hoverEffect" href="#">ABOUT US</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link hoverEffect" href="#">SERVICES</a>
+                            </li>
+                            <li class="nav-item d-none d-lg-block z-3">
+                                <a class="nav-link " id="logoS" href="#">
+                                    <img src="logo2.png" class="d-none d-lg-block z-3" id="bgImg" alt="logo">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hoverEffect" href="#">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hoverEffect" href="#">CAREER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hoverEffect" href="#">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid ">
+        <div id="carouselExampleAutoplaying" class="carousel slide  " data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img src="coroselImg.jpg" class="d-block w-100 " style="height: 30.5rem;" alt="sliding img">
+                </div>
+                <div class="carousel-item ">
+                    <img src="coroselImg.jpg" class="d-block w-100 " style="height: 30.5rem;" alt="sliding img">
+                </div>
+                <div class="carousel-item ">
+                    <img src="coroselImg.jpg" class="d-block w-100 " style="height: 30.5rem;" alt="sliding img">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid  
+            d-flex align-items-center 
+            justify-content-center 
+            position-relative">
+            <div class="container position-absolute
+            start-50 translate-middle">
+                <div class="row ">
+                    <div class="col-12 col-md-9 offset-md-1 text-center blurS">
+                        <div class=" text-center my-3 ">
+                            <h4 class="card-title mt-2">WE GOT YOUR BACK</h4>
+                            <br>
+                            <p class="text-center">
+                                Our organization has been built on a shared mission - to ensure the safety of
+                                individuals, businesses, and communities, enabling us to prosper together.
+                            </p>
+                            <a href="#" class="btn btn-warning mt-2 " id="animateBTN" style="width: 10rem; border-radius: 20px;">
+                                About Us
+                                <i class="bi bi-arrow-right-circle-fill ms-4 animateBtn"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="container-fluid ">
+        <div class="row g-0">
+            <div class="col-md-6 col-lg-3 bgClr1 ">
+                <div class=" d-flex  
+                    flex-md-column justify-content-center 
+                    align-items-center  w-md-100 float-md-end ">
+
+                    <div class=" 
+                        d-flex justify-content-center 
+                        align-items-center m-4 d-none d-sm-block ">
+
+                        <div class="box d-flex 
+                            justify-content-center 
+                            align-items-center  ">
+                            <img src="police.png" class="iconImg1" alt="">
+                        </div>
+
+                    </div>
+                    <div class="body d-flex 
+                        flex-column 
+                        justify-content-center 
+                        align-items-center mt-3 w-md-100 ">
+
+                        <h5 class="card-title text-center fw-bolder">Uniformed <br /> Security Officers</h5>
+                        <br>
+                        <p class="card-text text-center text-break">we provide Armed and unarmed trained and licensed
+                            security Officers to secure your premises and ensure the safety of your employees,
+                            customers and visitors.
+                        </p>
+                        <a href="#" class="btn bg-dark mt-2 align-middle mb-5 " id="buttn">
+                            Request a Quote
+                            <i class="bi bi-arrow-right-circle-fill ms-4 fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 bgClr2">
+                <div class=" d-flex  
+                    flex-md-column justify-content-center 
+                    align-items-center  border ">
+
+                    <div class=" 
+                        d-flex justify-content-center 
+                        align-items-center m-4 d-none d-sm-block ">
+
+                        <div class="box d-flex 
+                            justify-content-center 
+                            align-items-center  ">
+                            <img src="policeCar.png" class="iconImg" alt="">
+                        </div>
+
+                    </div>
+                    <div class="body d-flex 
+                        flex-column 
+                        justify-content-center 
+                        align-items-center mt-3 w-md-100 ">
+
+                        <h5 class="card-title text-center fw-bolder">Mobile <br /> Petrol Services </h5>
+                        <br>
+                        <p class="card-text text-center text-break">
+                            Our mobile petrol units offer round-the-clock security, making
+                            random and scheduled checkes on your premises to detect and to deter any
+                            suspecious activity.
+                        </p>
+                        <a href="#" class="btn bg-dark mt-2 align-middle mb-5 " id="buttn">
+                            Free consulation
+                            <i class="bi bi-arrow-right-circle-fill ms-4 fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-lg-3 bgClr3">
+                <div class=" d-flex  
+                flex-md-column justify-content-center 
+                align-items-center  w-md-100 float-md-end ">
+
+                    <div class=" 
+                    d-flex justify-content-center 
+                    align-items-center m-4 d-none d-sm-block ">
+
+                        <div class="box d-flex 
+                        justify-content-center 
+                        align-items-center  ">
+                            <img src="clickHand.png" class="iconImg" alt="">
+                        </div>
+
+                    </div>
+                    <div class="body d-flex 
+                    flex-column 
+                    justify-content-center 
+                    align-items-center mt-3 w-md-100 ">
+
+                        <h5 class="card-title text-center fw-bolder">Access <br /> Control System</h5>
+                        <br>
+                        <p class="card-text text-center text-break">
+                            we provide customised access control System to regulate entry and exit to your
+                            premises, ensuring only authorized personel can access your property.
+                        </p>
+                        <a href="#" class="btn bg-dark mt-2 align-middle mb-5 " id="buttn">
+                            Learn More
+                            <i class="bi bi-arrow-right-circle-fill ms-4 fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-lg-3 bgClr4">
+                <div class=" d-flex  w-md-100
+                flex-md-column justify-content-center 
+                align-items-center   float-md-start ">
+
+                    <div class=" 
+                    d-flex justify-content-center 
+                    align-items-center m-4  d-none d-sm-block">
+
+                        <div class="box d-flex 
+                        justify-content-center 
+                        align-items-center  border">
+                            <img src="policeGroup.png" class="iconImg" alt="">
+                        </div>
+
+                    </div>
+                    <div class="body d-flex 
+                    flex-column justify-content-center 
+                    align-items-center mt-3 w-md-100">
+
+                        <h5 class="card-title text-center fw-bolder">Join <br /> Our Team</h5>
+                        <br>
+                        <p class="card-text text-center text-break">we provide Armed and unarmed trained and licensed
+                            security Officers to secure your premises and ensure the safety of your employees,
+                            customers and visitors.
+                        </p>
+                        <a href="#" class="btn bg-dark mt-2 align-middle mb-5 " id="buttn">
+                            Join our Team
+                            <i class="bi bi-arrow-right-circle-fill ms-4 fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid ">
+        <div class="container mt-5 mb-5 ">
+            <div class="row">
+                <div class="col-md-6  ">
+                    <div class="container  ">
+                        <div class="row mt-4">
+
+                            <div class="col-12 ">
+                                <div class="imgBox">
+                                    <img src="mailLogo.png" class="boxImg" alt="mailLogo">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-12 mt-1 ">
+                                <div class="textBox d-flex justify-content-between align-items-center">
+                                    <h2 class=" fw-bolder textStyle">
+                                        Free Security Consultation
+                                    </h2>
+                                    <div class="divStyle"></div>
+                                </div>
+                                <p class="longText">
+                                    One of our team members will get in touch with you
+                                    soon to have a detailed conversation regarding your
+                                    security service requirements. We understand that
+                                    security is a top priority for communities and businesses,
+                                    and we take it very seriously. That's why we want to ensure
+                                    that we fully comprehend your security needs and provide you
+                                    with the best possible solutions to safeguard your assets
+                                    and people. We value your time and business, and we look
+                                    forward to assisting you in enhancing your security measures.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 border colShadow">
+
+                    <div class="container ">
+                        <div class="row gx-2 mb-2 mt-3">
+                            <div class="col-6 ">
+                                <input type="text" class="form-control " placeholder="First name*">
+                            </div>
+                            <div class="col-6 ">
+                                <input type="text" class="form-control" placeholder="Last name*">
+                            </div>
+                        </div>
+                        <div class="row gx-2 mb-2">
+                            <div class="col-6 ">
+                                <input type="text" class="form-control " placeholder="Business E-mail*">
+                            </div>
+                            <div class="col-6 ">
+                                <input type="text" class="form-control" placeholder="Phone*">
+                            </div>
+                        </div>
+                        <div class="row gx-2 mb-2">
+                            <div class="col-6 ">
+                                <input type="text" class="form-control " placeholder="Company name*">
+                            </div>
+                            <div class="col-6 ">
+                                <div class="input-group ">
+                                    <select class="form-select" id="inputGroupSelect02">
+                                        <option selected>Industry*</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                    <!-- <input type="text" class="form-control" placeholder="Last name*"> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-1 gy-3">
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="city*">
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" placeholder="Message*"></textarea>
+                            </div>
+                            <div class="col-12 mb-3 d-flex justify-content-center align-items-center">
+                                <a href="#" class="btn btn-warning  " id="roundBtn">
+                                    <span class="text fw-bold">SUBMIT</span>
+                                    <i class="bi bi-arrow-right-circle-fill ms-4 fs-5"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="container-fluid ">
+        <div class="container mt-3">
+            <div class="row mb-3">
+                <div class="col-3 "></div>
+                <div class="col-md-12 col-lg-6 
+                    d-flex justify-content-around 
+                    align-items-center ">
+                    <div class="serStyle"></div>
+                    <h2 class="fw-bolder">OUR SERVICES</h2>
+                    <div class="serStyle "></div>
+                </div>
+                <div class="col-3 "></div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-md-12 col-lg-10 ">
+                    <p class="text text-center">
+                        At Alliance Defense Services, we offer a comprehensive range of
+                        security solutions to help our clients protect their assets,<br>
+                        mitigate risks, and maintain a safe and secure environment.
+                    </p>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid ">
+        <div class="row gx-2 mb-2 mt-2 overflow-hidden">
+            <div class="col-md-4 position-relative hoverEffect overflow-hidden">
+                <img src="firstLady.jpg" class="cardImg" alt="smiling lady">
+                <div class=" overLay">
+                    <h5 class="text-center fw-bolder">Commercial Real Estate <br> Security Service</h5>
+                </div>
+            </div>
+            <div class="col-md-4  position-relative hoverEffect overflow-hidden">
+                <img src="camera.jpg" class="cardImg" alt="House with camera">
+                <div class=" overLay">
+                    <h5 class="text-center fw-bolder">Commercial Real Estate <br> Security Service</h5>
+                </div>
+            </div>
+            <div class="col-md-4  position-relative hoverEffect overflow-hidden">
+                <img src="Man2.jpg" class="cardImg" alt="smiling man with tab in his hand">
+                <div class=" overLay">
+                    <h5 class="text-center fw-bolder">Hotel & Hospitality <br> Security Service</h5>
+                </div>
+            </div>
+        </div>
+        <div class="row g-2 mb-2">
+            <div class="col-md-4  position-relative hoverEffect overflow-hidden">
+                <img src="doctorsHand.jpg" class="cardImg" alt="a hand with doctors sign">
+                <div class=" overLay">
+                    <h5 class="text-center fw-bolder">Healthcare Security <br> Service</h5>
+                </div>
+            </div>
+            <div class="col-md-4 position-relative hoverEffect overflow-hidden ">
+                <img src="Lady2.jpg" class="cardImg" alt="smiling lady entering password">
+                <div class=" overLay">
+                    <h5 class="text-center fw-bolder">Residential Community <br> Security Service</h5>
+                </div>
+            </div>
+            <div class="col-md-4  position-relative hoverEffect overflow-hidden">
+                <img src="Mobile.jpg" class="cardImg" alt="paying bills with card and">
+                <div class=" overLay">
+                    <h5 class="text-center fw-bolder">Retail Security <br> Service</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid ">
+        <div class="container mt-5">
+            <div class="row mb-3">
+                <div class="col-3 "></div>
+                <div class="col-md-12 col-lg-6 
+                    d-flex justify-content-around 
+                    align-items-center ">
+                    <div class="serStyle"></div>
+                    <h2 class="fw-bolder">WHY CHOOSE US</h2>
+                    <div class="serStyle "></div>
+                </div>
+                <div class="col-3 "></div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-md-12 col-lg-10 ">
+                    <p class="text text-center">
+                        There are several reasons why clients choose
+                        Alliance Defense Services as their trusted security partner:
+                    </p>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid ">
+        <div class="container mt-5">
+            <div class="row g-2">
+                <div class=" col-lg-6 ">
+                    <div class="card mb-3" style="max-width: 540px; border: none;">
+                        <div class="row g-0">
+                            <div class="col-md-2 " style="padding: 10px;">
+                                <img src="experience.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Experience</h5>
+                                    <p class="card-text">Our team has a wealth of expertise in the security industry,
+                                        allowing us to deliver innovative and effective security
+                                        solutions that meet our clients' unique needs.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-6 ">
+                    <div class="card mb-3" style="max-width: 540px; border: none;">
+                        <div class="row g-0">
+                            <div class="col-md-2 " style="padding: 10px;">
+                                <img src="second.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Customization</h5>
+                                    <p class="card-text">We provide personalized security solutions that address our
+                                        clients' specific challenges and risks, ensuring they receive
+                                        the right level of protection for their assets and people.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-2">
+                <div class=" col-lg-6 ">
+                    <div class="card mb-3" style="max-width: 540px; border: none;">
+                        <div class="row g-0">
+                            <div class="col-md-2 " style="padding: 10px;">
+                                <img src="technology.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Technology</h5>
+                                    <p class="card-text">We use advanced security technology and tools to enhance our
+                                        services and provide our clients with real-time
+                                        information and insights to make informed decisions.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-6 ">
+                    <div class="card mb-3" style="max-width: 540px; border: none;">
+                        <div class="row g-0">
+                            <div class="col-md-2 " style="padding: 10px;">
+                                <img src="customerService.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Customer Service</h5>
+                                    <p class="card-text">We prioritize our clients' satisfaction and work closely with
+                                        them to ensure their security needs are met, and their
+                                        expectations are exceeded.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid ">
+        <div class="row mt-4  bgColor">
+            <div class="col-md-6 ">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="logo2.png" class="img-thumbnail bg-transparent border-0 mt-3 mb-3" alt="">
+                    </div>
+                    <div class="col-6 ">
+                        <div class="container  mt-3  d-flex flex-column border-start">
+                            <div class=" row d-flex align-items-center">
+                                <h5 class="fw-bold footerTxt">CONTACT US</h5>
+                            </div>
+                            <ul class="list-group mt-4">
+                                <li class="list-group item flex-row mb-2">
+                                    <i class="bi bi-geo-alt-fill icons"></i>
+                                    <p class="text ms-2 text-break">
+                                        1234 E. Valley Rd, Suite 123 Ipsum Lorem, CA 123456
+
+                                    </p>
+                                </li>
+                                <li class="list-group item flex-row mb-2">
+                                    <i class="bi bi-telephone-fill icons"></i>
+                                    <p class="text ms-2">
+                                        Phone: (123) 456 - 7890
+                                    </p>
+                                </li>
+                                <li class="list-group item flex-row mb-2">
+                                    <i class="bi bi-envelope-fill icons"></i>
+                                    <p class="text-break ms-2">
+                                        contact@alliancedefense.com
+
+                                    </p>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 ">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="container  mt-3 hiGht d-flex flex-column border-start">
+                            <div class=" row d-flex align-items-center">
+                                <h5 class="fw-bold footerTxt">MAIN MENU</h5>
+                            </div>
+                            <ul class="list-group mt-4">
+                                <li class="list-item"><a href="#" class="listText">
+                                        Home
+                                    </a></li>
+                                <li class="list-item"><a href="#" class="listText">
+                                        About Us
+                                    </a></li>
+                                <li class="list-item"><a href="#" class="listText">
+                                        Services
+                                    </a></li>
+                                <li class="list-item"><a href="#" class="listText">
+                                        Blog
+                                    </a></li>
+                                <li class="list-item"><a href="#" class="listText">
+                                        Careers
+                                    </a></li>
+                                <li class="list-item"><a href="#" class="listText">
+                                        Contact Us
+                                    </a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="container  mt-3 hiGht d-flex flex-column border-start">
+                            <div class=" row d-flex align-items-center">
+                                <h5 class="fw-bold footerTxt">USEFUL LINKS</h5>
+                            </div>
+                            <ul class="list-group mt-4">
+                                <li class="list-item"><a href="#" class="listText">
+                                        Facebook
+                                    </a></li>
+                                <li class="list-item"><a href="#" class="listText">
+                                        Twiter
+                                    </a></li>
+                                <li class="list-item"><a href="#" class="listText">
+                                        Linkedln
+                                    </a></li>
+                                <li class="list-item"><a href="#" class="listText">
+                                        Instagram
+                                    </a></li>
+                                <li class="list-item"><a href="#" class="listText">
+                                        You Tube
+                                    </a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer ">
+        <div class="card text-center border-0 bg-transparent">
+            <hr>
+            <div class="card-body">  
+                <p class="card-text">Copyright © 2023 Alliance Defense Services  | All Right Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
